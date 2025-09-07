@@ -1,7 +1,7 @@
 {
-    "id": "page-home-1",
-    "title": "Home Page",
-    "meta": {
-        "description": "Welcome to ReactFlow Studio!"
-    }
+  "id": "page-home-1",
+  "title": "Home Page",
+  "meta": {
+    "description": "Welcome to ReactFlow Studio!"
+  }
 }

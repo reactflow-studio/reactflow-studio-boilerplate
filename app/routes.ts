@@ -1,4 +1,3 @@
-
 import {
   type RouteConfig,
   index,
@@ -9,7 +8,7 @@ import {
 // Read Configuration JSONs (at build time, not runtime)
 import routes_rfs from "./routes.rfs.json";
 import layouts_rfs from "./layouts/layouts.rfs.json";
- 
+
 // Helper to resolve layout file path
 function getLayoutFile(layoutName: string) {
   const layout = layouts_rfs.find((l: any) => l.id === layoutName);

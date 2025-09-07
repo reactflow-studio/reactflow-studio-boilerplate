@@ -1,8 +1,8 @@
 [
-    {
-      "id": "comp-button-1",
-      "name": "Button",
-      "description": "A reusable button component",
-      "file": "button.component.tsx"
-    }
-  ]
+  {
+    "id": "comp-button-1",
+    "name": "Button",
+    "description": "A reusable button component",
+    "file": "button.component.tsx"
+  }
+]

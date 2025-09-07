@@ -1,18 +1,18 @@
 [
-    {
-      "id": "route-home-1",
-      "name": "Home",
-      "path": "/",
-      "page": "home",
-      "layout": "layout-default-1",
-      "order": 0
-    },
-    {
-      "id": "route-about-2",
-      "name": "About",
-      "path": "/about",
-      "page": "about",
-      "layout": "layout-default-1",
-      "order": 1
-    }
-  ]
+  {
+    "id": "route-home-1",
+    "name": "Home",
+    "path": "/",
+    "page": "home",
+    "layout": "layout-default-1",
+    "order": 0
+  },
+  {
+    "id": "route-about-2",
+    "name": "About",
+    "path": "/about",
+    "page": "about",
+    "layout": "layout-default-1",
+    "order": 1
+  }
+]

@@ -1,7 +1,7 @@
 import type { Route } from "./+types/about.page";
 
 // Import rfs data
-import page_rfs from './about.rfs.json';
+import page_rfs from "./about.rfs.json";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -10,7 +10,9 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 export default function About() {
-  return <>
-    <p>About Us</p>
-  </>;
+  return (
+    <>
+      <p>About Us</p>
+    </>
+  );
 }

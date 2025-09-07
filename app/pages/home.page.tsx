@@ -2,7 +2,7 @@ import type { Route } from "./+types/home.page";
 import Button from "~/components/button.component";
 
 // Import rfs data
-import page_rfs from './home.rfs.json';
+import page_rfs from "./home.rfs.json";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,8 +12,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <div>
-    <p>Hello World</p>
-    <Button label="Custom Label" />
-  </div>;
+  return (
+    <div>
+      <p>Hello World</p>
+      <Button label="Custom Label" />
+    </div>
+  );
 }
