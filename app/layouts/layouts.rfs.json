@@ -1,7 +1,8 @@
 [
     {
+      "id": "layout-default-1",
       "name": "DefaultLayout",
       "description": "The default layout for the app",
-      "file": "default.layout.tsx"
+      "file": "default"
     }
   ]

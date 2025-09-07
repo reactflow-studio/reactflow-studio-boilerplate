@@ -1,10 +1,13 @@
-import Button from "~/components/button.component";
 import type { Route } from "./+types/home.page";
+import Button from "~/components/button.component";
+
+// Import rfs data
+import page_rfs from './home.rfs.json';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New ReactFlow Studio App" },
-    { name: "description", content: "Welcome to ReactFlow Studio!" },
+    { title: page_rfs.title },
+    { name: "description", content: page_rfs.meta.description },
   ];
 }
 
