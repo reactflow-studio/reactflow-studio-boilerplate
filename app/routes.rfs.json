@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Home",
+      "path": "/",
+      "page": "home.page.tsx",
+      "layout": "DefaultLayout"
+    },
+    {
+      "name": "About",
+      "path": "/about",
+      "page": "about.page.tsx",
+      "layout": "DefaultLayout"
+    }
+  ]

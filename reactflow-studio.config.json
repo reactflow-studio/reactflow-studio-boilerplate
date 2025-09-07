@@ -1,0 +1,9 @@
+{
+  "name": "ReactFlow Studio Boilerplate",
+  "description": "A boilerplate configuration for ReactFlow Studio",
+  "version": "1.0.0",
+  "appDirectory": "app",
+  "routes": "app/routes.rfs.json",
+  "layouts": "app/layouts/layouts.rfs.json",
+  "components": "app/components/components.rfs.json"
+}

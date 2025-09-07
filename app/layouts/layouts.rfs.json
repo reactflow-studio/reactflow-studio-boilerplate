@@ -1,0 +1,7 @@
+[
+    {
+      "name": "DefaultLayout",
+      "description": "The default layout for the app",
+      "file": "default.layout.tsx"
+    }
+  ]
